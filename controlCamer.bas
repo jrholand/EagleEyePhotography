@@ -23,8 +23,6 @@ DIM prevVelocity = 0
  
 '  MC.SwitchOn             
  Enable() 
-              ' set sequence program 1 TO autostart
- 'SETOBJ $3002.00 = 1
   run()
 END                                                          
                                                                        
