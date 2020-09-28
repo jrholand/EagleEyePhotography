@@ -1,0 +1,1 @@
+For information on How to start developing on this project, see the [Programming Manual](Documentation/ProgrammingManual.pdf)
