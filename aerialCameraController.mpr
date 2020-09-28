@@ -3,15 +3,15 @@
   <NodeExplorer Name="Motion Manager" Active="1">
     <USB Name="USB" Active="1">
       <MC3Usb Name="MC3Usb" DispName="FAULHABER MC3 USB" Active="1">
-        <USB10 Name="USB1-0" DispName="USB1" Active="0" PortNo="1" Channel="0" Baudrate="0" ScanStart="1" ScanEnd="1">
-          <COUSB Name="CO_USB" DispName="CO_USB" Active="0">
-            <MC5005SCO Name="MC5005 S CO" DispName="MC5005 S CO" Active="0" NodeNumber="1" SerialNumber="262000024" Family="1"/>
+        <USB10 Name="USB1-0" DispName="USB1" Active="1" PortNo="1" Channel="0" Baudrate="0" ScanStart="1" ScanEnd="1">
+          <COUSB Name="CO_USB" DispName="CO_USB" Active="1">
+            <MC5005SCO Name="MC5005 S CO" DispName="MC5005 S CO" Active="1" NodeNumber="1" SerialNumber="262000024" Family="1"/>
             <MC5005SCO Name="MC5005 S CO" DispName="MC5005 S CO" Active="0" NodeNumber="1" SerialNumber="62000030" Family="1"/>
           </COUSB>
         </USB10>
-        <USB20 Name="USB2-0" DispName="USB2" Active="1" PortNo="2" Channel="0" Baudrate="0" ScanStart="1" ScanEnd="1">
-          <COUSB Name="CO_USB" DispName="CO_USB" Active="1">
-            <MC5005SCO Name="MC5005 S CO" DispName="MC5005 S CO" Active="1" NodeNumber="1" SerialNumber="62000030" Family="1"/>
+        <USB20 Name="USB2-0" DispName="USB2" Active="0" PortNo="2" Channel="0" Baudrate="0" ScanStart="1" ScanEnd="1">
+          <COUSB Name="CO_USB" DispName="CO_USB" Active="0">
+            <MC5005SCO Name="MC5005 S CO" DispName="MC5005 S CO" Active="0" NodeNumber="1" SerialNumber="62000030" Family="1"/>
           </COUSB>
         </USB20>
       </MC3Usb>
@@ -76,7 +76,7 @@
         </Configuration4>
       </TraceSettings>
       <ProgFiles Name="ProgFiles">
-        <Prog1 Name="Prog1" FileName="controlCamer.bas" FileNameRaw="C:\Users\John\Desktop\James\CameraControlSys\controlCamer.bas" TimeStamp="9/27/2020 9:24:28 PM" ProgNr="1"/>
+        <Prog1 Name="Prog1" FileName="controlCamer.bas" FileNameRaw="C:\Users\John\Desktop\James\controlCamer.bas" TimeStamp="9/27/2020 9:31:00 PM" ProgNr="1"/>
       </ProgFiles>
       <CSysData Name="CSysData"/>
     </N62000030>
@@ -138,7 +138,7 @@
         </Configuration4>
       </TraceSettings>
       <ProgFiles Name="ProgFiles">
-        <Prog1 Name="Prog1" FileName="controlCamer.bas" FileNameRaw="C:\Users\John\Desktop\James\CameraControlSys\controlCamer.bas" TimeStamp="9/27/2020 9:24:07 PM" ProgNr="1"/>
+        <Prog1 Name="Prog1" FileName="controlCamer.bas" FileNameRaw="C:\Users\John\Desktop\James\controlCamer.bas" TimeStamp="9/27/2020 9:30:43 PM" ProgNr="1"/>
       </ProgFiles>
       <CSysData Name="CSysData"/>
     </N262000024>
