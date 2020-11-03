@@ -15,8 +15,6 @@
 #DEFINE FALSE 0                             
 DIM MinJoystickMovement= 100  
 DIM JoyStickPosition =0
-DIM LimitSwitchUp = 0 
-DIM LimitSwitchDown = 0
 DIM PreviousJoyStickPosition =0
 DIM minVelocityDelta = 15 
 DIM prevVelocity = 0           
@@ -53,9 +51,7 @@ MC.SetOpmodePV
  DIM velocity = 0                                                      
   DO                                                         
                                                                     
-    JoyStickPosition  = GETOBJ AnIn1UserScaledValue    'REM read the current voltage from Analog Input 1 
-    LimitSwitchUp =  GETOBJ AnIn2UserScaledValue       ''REM read the current voltage from Analog Input 2
-    LimitSwitchDown = GETOBJ AnIn3UserScaledValue       ''REM read the current voltage from Analog Input 2     
+    JoyStickPosition  = GETOBJ AnIn1UserScaledValue    'REM read the current voltage from Analog Input 1    
     
    ' IF (JoyStickMoved(JoyStickPosition,PreviousJoyStickPosition))  THEN 
     '  SetMotorVector (JoyStickPosition)          
